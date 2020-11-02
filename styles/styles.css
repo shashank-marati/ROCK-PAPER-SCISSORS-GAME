@@ -192,10 +192,18 @@ button:focus{
 .rules-modal button{
     border: none;
     position: relative;
-    bottom: 76% ;
+    bottom: 80% ;
     left: 42%;
 }
 
+.rule{
+    color: hsla(233, 20%, 8%, 0.63);
+    font-size: 30px;
+    z-index: 999;
+    position: relative;
+    right: 30%;
+    bottom: 5%;
+}
 
 @media (max-width: 900px)
 {
@@ -227,17 +235,11 @@ button:focus{
     
     .rules-modal button{
         border: none;
-        position: absolute;
-        top: 0% ;
-        left: 80%;
+        position: relative;
+        top: 9%;
+        left: 0%;
     }
     
-    body {
-        background: radial-gradient(circle at 50% 10%, hsl(214, 47%, 23%), hsl(237, 49%, 15%));
-        color: white;
-        font-family: 'Barlow Semi Condensed', sans-serif;
-        min-height: 96.3vh;
-    }
 
     .btn-rules
     {
@@ -253,6 +255,14 @@ button:focus{
         bottom:  30px;
         right: 40px;
      }
+     .rule{
+        color: hsla(228, 33%, 3%, 0.63);
+        font-size: 30px;
+        z-index: 999;
+        position: relative;
+        right: 0%;
+        bottom: 5%;
+    }
      .btn-circle
      {
         width: 110px;
